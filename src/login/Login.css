@@ -1,0 +1,140 @@
+.main-container {
+    padding: 110px 0;
+}
+
+.container {
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0, 0, 0/10%),
+        0 8px 16px rgb(0, 0, 0/10%);
+    margin: auto;
+    padding: 0 0 14px 0;
+    width: 495px;
+    border: 1px solid#dddfe2;
+    border-radius: 3px;
+    background-color: #fff;
+    text-align: center;
+}
+.clear-fix{
+    zoom: 1;
+}
+.header-mg{
+    padding: 30px 0 24px 0;
+}
+.textbox-mg{
+    padding: 6px 0;
+    width: 320px;
+}
+.textbox{
+    margin: auto;
+}
+.header {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 28px
+}
+
+.email-container {
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    height: 22px;
+    line-height: 16px;
+    padding: 0 8px;
+    vertical-align: middle;
+    padding-bottom: 4px;
+    margin: auto;
+}
+
+.input-text {
+    -webkit-appearance: none;
+    border: 1px solid #ccd0d5;
+    border-radius: 0;
+    margin: auto;
+    padding: 3px;
+}
+
+.input-text-margin {
+    padding: 6px 0;
+    width: 302px;
+    margin: auto;
+}
+
+.input-text::after {
+    clear: both;
+    content: '.';
+    display: block;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+.textbox-font{
+    font-size: 14px;
+    padding: 5px 8px;
+    width: 284px;
+}
+
+.textbox-border{
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+}
+
+.textbox-align{
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    height: 40px;
+    line-height: 16px;
+    padding: 0 8px;
+    vertical-align: middle;
+}
+
+.inputtext, .inputpassword {
+    padding-bottom: 4px;
+}
+
+textarea, .inputtext, .inputpassword {
+    -webkit-appearance: none;
+    border: 1px solid #ccd0d5;
+    margin: 0;
+    padding: 3px;
+}
+
+.login-button-mg{
+    padding: 6px 0;
+    text-align: center;
+}
+
+.login-button{
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 320px;
+}
+    
+
+.button-align {
+    border: 1px solid;
+    border-radius: 6px;
+    box-sizing: content-box;
+    font-size: 12px;
+    -webkit-font-smoothing: antialiased;
+    font-weight: bold;
+    justify-content: center;
+    padding: 0 8px;
+    position: relative;
+    text-align: center;
+    text-shadow: none;
+    vertical-align: middle;
+}
+
+.button-mg{
+    margin: 0 0 0 16px;
+}
