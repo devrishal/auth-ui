@@ -13,8 +13,6 @@ const Login = () => {
             username: username,
             password: password,
         };
-        
-
         fetch("http://localhost:9191/auth-service/v1/login", {
             headers: {
                 "Content-type": "application/x-www-form-urlencoded;charset=UTF-8",
